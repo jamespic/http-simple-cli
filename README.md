@@ -10,6 +10,7 @@ to deal with security alerts for those OS dependencies).
 Usage
 -----
 
+```
 http-simple-cli [-h] [-X REQUEST] [-H HEADER] [-d DATA] [-v] [-o OUTPUT] [-k] [-t TIMEOUT] url
 
 Barebones utility to make HTTP requests using the standard library http.client
@@ -30,3 +31,4 @@ options:
   -k, --insecure        Allow insecure server connections when using SSL (ignore certificate verification)
   -t TIMEOUT, --timeout TIMEOUT
                         Timeout for the request in seconds (default: 60)
+```
